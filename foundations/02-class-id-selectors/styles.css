@@ -1,0 +1,21 @@
+/*styles.css*/
+.redB{
+    background-color: rgb(224, 125, 125);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+.bigger{
+    font-size: 24px;
+}
+
+#bluT{
+    font-size: 36px;
+    color: rgb(26, 26, 233);
+}
+#greenT{
+    background-color: rgb(105, 211, 105);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
