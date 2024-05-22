@@ -25,3 +25,50 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+
+/* below added, placed below to compare with solution */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+button{
+  padding: 8px 12px;
+}
+
+.content {
+  display: flex;  
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.footer{
+  background-color: #eee;
+}
+
+ul{
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px
+}
+
+a{
+  text-decoration-line: none;
+  color:rgb(59, 59, 59);
+}
+a:visited{
+  color: rgb(59, 59, 59)
+}
